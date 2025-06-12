@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\stein\\OneDrive\\Desktop\\MalshinProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F896E21F-3D2A-4F5A-9E6A-9855234F10D1}|MalshinProject\\MalshinProject.csproj|c:\\users\\stein\\onedrive\\desktop\\malshinproject\\malshinproject\\dals\\dalpeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F896E21F-3D2A-4F5A-9E6A-9855234F10D1}|MalshinProject\\MalshinProject.csproj|solutionrelative:malshinproject\\dals\\dalpeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F896E21F-3D2A-4F5A-9E6A-9855234F10D1}|MalshinProject\\MalshinProject.csproj|C:\\Users\\stein\\OneDrive\\Desktop\\MalshinProject\\malshinproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F896E21F-3D2A-4F5A-9E6A-9855234F10D1}|MalshinProject\\MalshinProject.csproj|solutionrelative:malshinproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F896E21F-3D2A-4F5A-9E6A-9855234F10D1}|MalshinProject\\MalshinProject.csproj|C:\\Users\\stein\\OneDrive\\Desktop\\MalshinProject\\malshinproject\\dals\\dal_reports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F896E21F-3D2A-4F5A-9E6A-9855234F10D1}|MalshinProject\\MalshinProject.csproj|solutionrelative:malshinproject\\dals\\dal_reports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F896E21F-3D2A-4F5A-9E6A-9855234F10D1}|MalshinProject\\MalshinProject.csproj|c:\\users\\stein\\onedrive\\desktop\\malshinproject\\malshinproject\\dals\\dalpeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F896E21F-3D2A-4F5A-9E6A-9855234F10D1}|MalshinProject\\MalshinProject.csproj|solutionrelative:malshinproject\\dals\\dalpeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,19 +47,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Reports.cs",
-              "DocumentMoniker": "C:\\Users\\stein\\OneDrive\\Desktop\\MalshinProject\\MalshinProject\\Reports.cs",
-              "RelativeDocumentMoniker": "MalshinProject\\Reports.cs",
-              "ToolTip": "C:\\Users\\stein\\OneDrive\\Desktop\\MalshinProject\\MalshinProject\\Reports.cs",
-              "RelativeToolTip": "MalshinProject\\Reports.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T12:43:16.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "People.cs",
               "DocumentMoniker": "C:\\Users\\stein\\OneDrive\\Desktop\\MalshinProject\\MalshinProject\\People.cs",
               "RelativeDocumentMoniker": "MalshinProject\\People.cs",
@@ -72,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DBConnection.cs",
               "DocumentMoniker": "C:\\Users\\stein\\OneDrive\\Desktop\\MalshinProject\\MalshinProject\\DBConnection.cs",
               "RelativeDocumentMoniker": "MalshinProject\\DBConnection.cs",
@@ -85,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DAL_Alerts.cs",
               "DocumentMoniker": "C:\\Users\\stein\\OneDrive\\Desktop\\MalshinProject\\MalshinProject\\DALs\\DAL_Alerts.cs",
               "RelativeDocumentMoniker": "MalshinProject\\DALs\\DAL_Alerts.cs",
@@ -98,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Alerts.cs",
               "DocumentMoniker": "C:\\Users\\stein\\OneDrive\\Desktop\\MalshinProject\\MalshinProject\\Alerts.cs",
               "RelativeDocumentMoniker": "MalshinProject\\Alerts.cs",
@@ -111,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\stein\\OneDrive\\Desktop\\MalshinProject\\MalshinProject\\Program.cs",
               "RelativeDocumentMoniker": "MalshinProject\\Program.cs",
@@ -124,7 +111,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DALPeople.cs",
+              "DocumentMoniker": "C:\\Users\\stein\\OneDrive\\Desktop\\MalshinProject\\MalshinProject\\DALs\\DALPeople.cs",
+              "RelativeDocumentMoniker": "MalshinProject\\DALs\\DALPeople.cs",
+              "ToolTip": "C:\\Users\\stein\\OneDrive\\Desktop\\MalshinProject\\MalshinProject\\DALs\\DALPeople.cs",
+              "RelativeToolTip": "MalshinProject\\DALs\\DALPeople.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T03:57:11.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Reports.cs",
+              "DocumentMoniker": "C:\\Users\\stein\\OneDrive\\Desktop\\MalshinProject\\MalshinProject\\Reports.cs",
+              "RelativeDocumentMoniker": "MalshinProject\\Reports.cs",
+              "ToolTip": "C:\\Users\\stein\\OneDrive\\Desktop\\MalshinProject\\MalshinProject\\Reports.cs",
+              "RelativeToolTip": "MalshinProject\\Reports.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T12:43:16.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DAL_Reports.cs",
               "DocumentMoniker": "C:\\Users\\stein\\OneDrive\\Desktop\\MalshinProject\\MalshinProject\\DALs\\DAL_Reports.cs",
               "RelativeDocumentMoniker": "MalshinProject\\DALs\\DAL_Reports.cs",
@@ -133,19 +146,6 @@
               "ViewState": "AgIAAAsAAAAAAAAAAAAUwBsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T08:05:56.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DALPeople.cs",
-              "DocumentMoniker": "C:\\Users\\stein\\OneDrive\\Desktop\\MalshinProject\\MalshinProject\\DALs\\DALPeople.cs",
-              "RelativeDocumentMoniker": "MalshinProject\\DALs\\DALPeople.cs",
-              "ToolTip": "C:\\Users\\stein\\OneDrive\\Desktop\\MalshinProject\\MalshinProject\\DALs\\DALPeople.cs",
-              "RelativeToolTip": "MalshinProject\\DALs\\DALPeople.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T03:57:11.495Z",
               "EditorCaption": ""
             }
           ]

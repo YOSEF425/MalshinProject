@@ -13,6 +13,7 @@ namespace MalshinProject.DALs
 
         public static void AddReport()
         {
+            string name = Console.ReadLine();
             Console.WriteLine("Enter your ID");
             string ReporterID = Console.ReadLine();
             if(DALPeople.CheckCode(ReporterID) == -1)
