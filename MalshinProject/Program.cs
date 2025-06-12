@@ -30,6 +30,7 @@ namespace MalshinProject
                         if (ident_choice == 1)
                         {
                             Console.WriteLine("Enter your name.");
+
                             DAL_Reports.AddReport();
                         }
                         else
@@ -43,22 +44,27 @@ namespace MalshinProject
                         break;
 
 
-
-
-
-
-
-
-
-
                     case 3:
+                        DALPeople.GetNameByCode();
+                        break;
 
-                                
 
+                    case 4:
+                        Console.WriteLine("Enter Target Id");
+                        string TargetId = Console.ReadLine();
+                        DAL_Alerts.IsDangerous(TargetId);
+                        break;
+                    case 5:
+                        break;
 
-
-                            }
+                }
             }
+            Console.WriteLine("Thanks for visiting!");
+
+
+
+                            
+            
 
         }
     }

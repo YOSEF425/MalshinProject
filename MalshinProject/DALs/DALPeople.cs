@@ -10,10 +10,15 @@ namespace MalshinProject
     public static class DALPeople
     {
         
-        public static void AddPerson(People person) 
+        public static void AddPerson() 
         {
+            Console.WriteLine("Enter name.");
+            string name = Console.ReadLine();
+            Console.WriteLine("Enter Secret Code.");
+            string secretCode = Console.ReadLine();
+            People p = new People(name,secretCode);
             string sql = $"INSERT INTO people(fullName,SecretCode,CreaedAt)" +
-                $"VALUES({person.FullName},{person.SecretCode},{person.CreatedAt}";
+                $"VALUES({p.FullName},{p.SecretCode},{p.CreatedAt}";
 
             DBConnection.Execute(sql);
 
@@ -58,19 +63,29 @@ namespace MalshinProject
 
         }
 
-        public static string GetNameByCode()
+        public static void GetNameByCode()
         {
             Console.WriteLine("Enter your name.");
             string name = Console.ReadLine();
 
             string sql = $"SELECT SecretCode FROM people WHERE FullName = {name}";
-            MySqlConnection conn =
-            new MySqlConnection("server=localhost;port=3306;user=root;password=yosef1999!;database=malshinon");
-            conn.Open();
+            MySqlConnection conn = DBConnection.Connect();
             MySqlCommand cmd = new MySqlCommand(sql, conn);
-
+            MySqlDataReader rdr = cmd.ExecuteReader();
+            if (rdr.Read())
+            {
+                Console.WriteLine(rdr["SecretCode"]);
+            }
+            else
+            {
+                Console.WriteLine("Name not found.");
+            }
 
         }
+
+
+
+        
 
 
 

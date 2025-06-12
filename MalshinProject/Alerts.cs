@@ -11,11 +11,11 @@ namespace MalshinProject
         DateTime CreatedAt;
         int Id;
         string Reason;
-        int TargetId;
+        string TargetId;
 
 
 
-        public Alerts(string reason,int targetId)
+        public Alerts(string reason,string targetId)
         {
             this.Reason = reason;
             this.TargetId = targetId;

@@ -10,15 +10,14 @@ namespace MalshinProject
     {
         public string FullName { get; }
         public DateTime CreatedAt {  get; }
-        public int Id {  get; }
-        public int SecretCode {  get; }
+        public string SecretCode {  get; }
 
-        public People(string fullName,int id,int secret_code)
+        public People(string fullName,string secret_code)
         {
             FullName = fullName;
             CreatedAt = DateTime.Now;
             SecretCode = secret_code;
-            Id = id;
+          
         }
 
     }

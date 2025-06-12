@@ -9,7 +9,7 @@ namespace MalshinProject.DALs
 {
     internal class DAL_Alerts
     {
-        public int CheckIfAlert(int TargetId)
+        public static bool IsDangerous(string TargetId)
         {
             int count = 0;
             string sql = $"SELECT COUNT(*) FROM your_table_name WHERE reporterId = {TargetId}";
@@ -18,8 +18,18 @@ namespace MalshinProject.DALs
             conn.Open();
             MySqlCommand cmd = new MySqlCommand(sql, conn);
             count = Convert.ToInt32(cmd.ExecuteScalar());
-            return count;
+            if(count >= 20)
+            {
+                Alerts alerts = new Alerts("ssdds",TargetId);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
+
+        
 
 
 

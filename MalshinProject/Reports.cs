@@ -9,13 +9,13 @@ namespace MalshinProject
     internal class Reports
     {
         private int Id   { get; set; }
-        private int ReporterId  { get; set; }
+        private string ReporterId  { get; set; }
         private string ReporterText { get; set; }
         private DateTime SubmittedAt { get; set; }
-        private int TargetId   { get; set; }
+        private string TargetId   { get; set; }
 
 
-        public Reports(int ReporterId, string ReporterText, int TargetId)
+        public Reports(string ReporterId, string ReporterText, string TargetId)
         {
             this.ReporterId = ReporterId;
             this.ReporterText = ReporterText;
