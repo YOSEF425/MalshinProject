@@ -14,20 +14,20 @@ namespace MalshinProject
         {
             Console.WriteLine("Enter name.");
             string name = Console.ReadLine();
-            Console.WriteLine("Enter Secret Code.");
-            string secretCode = Console.ReadLine();
-            People p = new People(name,secretCode);
-            string sql = $"INSERT INTO people(fullName,SecretCode,CreaedAt)" +
-                $"VALUES({p.FullName},{p.SecretCode},{p.CreatedAt}";
+            Console.WriteLine("Enter ID Code.");
+            int IdCode = Convert.ToInt32(Console.ReadLine());
+            People p = new People(name,IdCode);
+            string sql = $"INSERT INTO people(fullName,Id) VALUES({p.FullName},{p.Id})";
+               
 
             DBConnection.Execute(sql);
 
         }
 
 
-        public static int CheckCode(string code)   
+        public static int CheckCode(int id)   
         {
-            string sql = $"SELECT COUNT(*) FROM People WHERE SecretCode = {code}";
+            string sql = $"SELECT COUNT(*) FROM People WHERE Id = {id}";
             MySqlConnection conn =
                 new MySqlConnection("server=localhost;port=3306;user=root;password=yosef1999!;database=malshinon");
             conn.Open();
@@ -63,12 +63,12 @@ namespace MalshinProject
 
         }
 
-        public static void GetNameByCode()
+        public static void GetCodeByName()
         {
             Console.WriteLine("Enter your name.");
             string name = Console.ReadLine();
 
-            string sql = $"SELECT SecretCode FROM people WHERE FullName = {name}";
+            string sql = $"SELECT Id FROM people WHERE FullName = {name}";
             MySqlConnection conn = DBConnection.Connect();
             MySqlCommand cmd = new MySqlCommand(sql, conn);
             MySqlDataReader rdr = cmd.ExecuteReader();

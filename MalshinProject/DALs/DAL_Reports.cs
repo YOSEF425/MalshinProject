@@ -15,13 +15,13 @@ namespace MalshinProject.DALs
         {
             string name = Console.ReadLine();
             Console.WriteLine("Enter your ID");
-            string ReporterID = Console.ReadLine();
+            int ReporterID = Convert.ToInt32(Console.ReadLine());
             if(DALPeople.CheckCode(ReporterID) == -1)
             {
                 DALPeople.AddPerson();
             }
             Console.WriteLine("Enter the target's ID.");
-            string TargetID = Console.ReadLine();
+            int TargetID = Convert.ToInt32(Console.ReadLine());
             if (DALPeople.CheckCode(ReporterID) == -1)
             {
                 DALPeople.AddPerson();

@@ -11,7 +11,7 @@ namespace MalshinProject
         {
             Console.WriteLine("1. submit Report");
             Console.WriteLine("2. Import from csv");
-            Console.WriteLine("3. Show secret code by name");
+            Console.WriteLine("3. Show ID by name");
             Console.WriteLine("4. Analysis Dashboard");
             Console.WriteLine("5. Exit");
         }
@@ -45,7 +45,7 @@ namespace MalshinProject
 
 
                     case 3:
-                        DALPeople.GetNameByCode();
+                        DALPeople.GetCodeByName();
                         break;
 
 
